@@ -8,7 +8,7 @@ function Converter(){
     function handleCelsius(e){
         const value = e.target.value;
         Setcelsius(value);
-        SetFarenheit(value===''?'':  (value*(9/5)+32) );
+        SetFarenheit(value===''?'':  parseFloat((value*(9/5)+32)) );
        
 
     }
@@ -16,7 +16,7 @@ function Converter(){
      function handleFarehnheit(e){
         const value = e.target.value;
         SetFarenheit(value);
-        Setcelsius(value===''?'': (((value-32)*5)/9) )  //((value - 32) * 5) / 9
+        Setcelsius(value===''?'': parseInt((((value-32)*5)/9)) )  //((value - 32) * 5) / 9
      
 
     } //(32°F − 32) × 5/9
