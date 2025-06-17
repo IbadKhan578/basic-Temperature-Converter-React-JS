@@ -1,0 +1,89 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: #cdb4db;
+}
+
+
+.converter{
+display: inline-flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 15%;
+width: auto;
+padding: 40px 25px;
+  border-radius: 20px;
+   background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 20px rgba(121, 85, 148, 0.3);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+
+
+
+}
+
+
+
+
+.calsius{
+margin-top: 25px;
+
+}
+
+label{
+    font-size: 1.2rem;
+     margin-bottom: 30px;
+
+}
+
+
+h1{
+    font-size: 3rem;
+      letter-spacing: 1px;
+        /* color: #4a355c; */
+          color: #6d4a7b;
+
+
+
+}
+
+
+
+
+
+input[type="number"] {
+  padding: 12px 18px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+  color: black;
+
+    box-shadow: 0 4px 10px rgba(121, 85, 148, 0.25); /* soft lavender */
+
+}
+
+input[type="number"]:focus {
+box-shadow: 0 0 12px #b088cc, 0 0 18px #c49de3;
+  background: #f8f0ff;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+      color: #9b7bbd;
+
+}
